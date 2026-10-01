@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Club Registration</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #f3efff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            background: #6c4ab6;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        h2 {
+            color: #5b3a9d;
+        }
+
+        .box {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 12px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #6c4ab6;
+            color: white;
+            border: 0;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        .club {
+            background: #eee8ff;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Club Registration Portal</h1>
+
+<div class="box">
+    <h2>Welcome Students!</h2>
+    <p>
+        Join a club, learn new skills, meet new people
+        and explore your interests.
+    </p>
+</div>
+
+<div class="box">
+    <h2>Our Clubs</h2>
+
+    <div class="club">
+        <h3>💻 Coding Club</h3>
+        <p>Learn coding and technology.</p>
+    </div>
+
+    <div class="club">
+        <h3>🎨 Creative Club</h3>
+        <p>Explore drawing, design and creativity.</p>
+    </div>
+
+    <div class="club">
+        <h3>🎤 Literary Club</h3>
+        <p>Improve writing and communication skills.</p>
+    </div>
+
+    <div class="club">
+        <h3>📸 Media Club</h3>
+        <p>Learn photography and content creation.</p>
+    </div>
+</div>
+
+<div class="box">
+
+    <h2>Student Registration</h2>
+
+    <form>
+
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter phone number">
+
+        <label>Branch</label>
+
+        <select>
+            <option>Select Branch</option>
+            <option>CSE</option>
+            <option>IT</option>
+            <option>ECE</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+        </select>
+
+        <label>Year</label>
+
+        <select>
+            <option>Select Year</option>
+            <option>1st Year</option>
+            <option>2nd Year</option>
+            <option>3rd Year</option>
+            <option>4th Year</option>
+        </select>
+
+        <label>Choose Club</label>
+
+        <select>
+            <option>Select Club</option>
+            <option>Coding Club</option>
+            <option>Creative Club</option>
+            <option>Literary Club</option>
+            <option>Media Club</option>
+        </select>
+
+        <label>Why do you want to join?</label>
+
+        <textarea placeholder="Write your reason"></textarea>
+
+        <label>
+            <input type="checkbox">
+            I agree to follow club rules.
+        </label>
+
+        <button type="submit">Register Now</button>
+
+    </form>
+
+</div>
+
+<div class="box">
+    <h2>Club Rules</h2>
+
+    <ol>
+        <li>Respect all club members.</li>
+        <li>Maintain discipline.</li>
+        <li>Participate actively.</li>
+        <li>Follow college rules.</li>
+    </ol>
+</div>
+
+</body>
+</html>
